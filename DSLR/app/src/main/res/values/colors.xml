@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="homebg">#b7fcfa</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="darkgray">#6c6c6c</color>
+    <color name="nav">#defcfb</color>
+    <color name="namecol">#020f77</color>
+    <color name="coldes">#4a4b4c</color>
+    <color name="colposthead">#caf9f7</color>
+    <color name="colpostbg">#676868</color>
+    <color name="colpostnamebg">#c7c9c8</color>
+    <color name="colpostdesbg">#e0e2e1</color>
+    <color name="colpostimgbg">#999b9b</color>
+</resources>

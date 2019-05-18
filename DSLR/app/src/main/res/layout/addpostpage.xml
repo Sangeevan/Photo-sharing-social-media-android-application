@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="ADD POST"
+        android:textAlignment="center"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/etplace"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/border"
+        android:ems="10"
+        android:gravity="top|left"
+        android:hint="Name of the place."
+        android:maxLength="40"
+        android:inputType="text"
+        android:maxLines="1"
+        android:lines="1"
+        android:padding="3dp" />
+
+    <android.support.v4.widget.ContentLoadingProgressBar
+        android:id="@+id/progresspostimg"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"/>
+
+    <ImageView
+        android:id="@+id/postimage"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_width="match_parent"
+        android:src="@drawable/addimg"
+        android:padding="5dp"
+        android:background="@drawable/border"
+        android:layout_height="256dp" />
+
+
+    <EditText
+        android:id="@+id/etdes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/border"
+        android:ems="10"
+        android:gravity="top|left"
+        android:hint="Description about the place ....."
+        android:inputType="textMultiLine"
+        android:maxLength="120"
+        android:maxLines="3"
+        android:lines="3"
+        android:padding="3dp" />
+
+    <Button
+        android:id="@+id/btnpost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textSize="25dp"
+        android:text="POST" />
+
+</LinearLayout>

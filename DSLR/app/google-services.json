@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "113430539532",
+    "firebase_url": "https://dslr-bbf38.firebaseio.com",
+    "project_id": "dslr-bbf38",
+    "storage_bucket": "dslr-bbf38.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:113430539532:android:6fc8f5faebd62e1d",
+        "android_client_info": {
+          "package_name": "com.example.sangeevan.dslr"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "113430539532-21f1clv07pmuvn8pv5qlv7n7feacgus5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sangeevan.dslr",
+            "certificate_hash": "8dbca91071208dbda1e5f7398981254d9aa78911"
+          }
+        },
+        {
+          "client_id": "113430539532-ndvq81agargcbnsmrvpd1t75uc6udfj4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sangeevan.dslr",
+            "certificate_hash": "9a148ab9a05a83f11084fca49b55d1c213be97d8"
+          }
+        },
+        {
+          "client_id": "113430539532-n6e1ki337521iq5bm91jhhl375judv20.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRSRlZuT7nY31Vcp5fxWjqSauG3P8M0MY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "113430539532-n6e1ki337521iq5bm91jhhl375judv20.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="3dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colpostbg"
+        android:orientation="vertical"
+        android:padding="3dp">
+
+
+        <TextView
+            android:id="@+id/mycardplacenameid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colpostnamebg"
+            android:text="Name of the place"
+            android:textStyle="bold"
+            android:lines="1"
+            android:textColor="@color/black"
+            android:padding="3dp"
+            android:textSize="15dp" />
+
+        <ImageView
+            android:id="@+id/mycardplaceimgid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@color/colpostimgbg"
+            android:padding="3dp"
+            android:src="@drawable/bg" />
+
+        <TextView
+            android:id="@+id/mycardplacedesid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colpostdesbg"
+            android:padding="3dp"
+            android:textStyle="bold"
+            android:lines="3"
+            android:text="Description about the place"
+            android:textColor="@color/coldes"
+            android:textSize="15dp" />
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
